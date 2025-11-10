@@ -4,7 +4,7 @@ describe('Event Calendar Block Tests', () => {
   beforeEach(() => {
     cy.intercept('GET', `/**/*?expand*`).as('content');
     cy.intercept('GET', '/**/Document').as('schema');
-    cy.intercept('POST', '**/@querystring-search**').as('querySearch');
+    cy.intercept('GET', '**/@querystring-search**').as('querySearch');
     cy.intercept('PATCH', '/**/my-page').as('save');
 
     const now = new Date();
