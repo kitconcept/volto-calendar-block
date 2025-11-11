@@ -1,5 +1,5 @@
-const addons = ['volto-calendar-block'];
-const theme = '';
+const addons = ['volto-calendar-block', '@kitconcept/volto-light-theme'];
+const theme = '@kitconcept/volto-light-theme';
 
 module.exports = {
   addons,
