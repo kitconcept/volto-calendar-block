@@ -1,8 +1,8 @@
 import type { BlockConfigBase } from '@plone/types';
 import calendarSVG from '@plone/volto/icons/calendar.svg';
-import SearchBlockViewEvent from './EventCalendar/Search/SearchBlockView';
-import SearchBlockEditEvent from './EventCalendar/Search/SearchBlockEdit';
-import SearchBlockSchemaEvent from './EventCalendar/Search/schema';
+import SearchBlockViewEvent from './Search/SearchBlockView';
+import SearchBlockEditEvent from './Search/SearchBlockEdit';
+import SearchBlockSchemaEvent from './Search/schema';
 
 const blockConfig: BlockConfigBase = {
   id: 'eventCalendar',

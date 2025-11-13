@@ -1,7 +1,7 @@
 import type { ConfigType } from '@plone/registry';
 import type { BlockConfigBase } from '@plone/types';
 import installSettings from './config/settings';
-import blockConfig from './components';
+import blockConfig from './components/EventCalendar';
 import './theme/event-calendar-base.css';
 import '@plone/components/dist/basic.css';
 

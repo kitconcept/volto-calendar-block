@@ -29,7 +29,7 @@
   "addons": [],
   "dependencies": {
     "@plone/components": "workspace:^",
-    "react-aria-components": "^1.12.1"
+    "react-aria-components": "^1.13.0"
   },
   "peerDependencies": {
     "react": "18.2.0",
