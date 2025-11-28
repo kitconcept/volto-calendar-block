@@ -51,6 +51,11 @@ msgstr ""
 msgid "Descending"
 msgstr ""
 
+#. Default: "Event Calendar"
+#: index
+msgid "Event Calendar"
+msgstr ""
+
 #. Default: "Facet"
 #: components/EventCalendar/Search/schema
 msgid "Facet"
