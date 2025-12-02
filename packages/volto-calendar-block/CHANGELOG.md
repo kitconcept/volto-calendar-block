@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.2 (2025-12-02)
+
+### Bugfix
+
+- Add german translation for Event Calendar block in block chooser. @iFlameing 
+
 ## 1.0.0-alpha.1 (2025-11-17)
 
 ### Internal
