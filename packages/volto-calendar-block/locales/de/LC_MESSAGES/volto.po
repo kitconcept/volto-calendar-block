@@ -10,3 +10,169 @@ msgstr ""
 "Content-Type: \n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. Default: "Advanced facet?"
+#: components/EventCalendar/Search/schema
+msgid "Advanced facet?"
+msgstr ""
+
+#. Default: "Advanced facets are initially hidden and displayed on demand"
+#: components/EventCalendar/Search/schema
+msgid "Advanced facets are initially hidden and displayed on demand"
+msgstr ""
+
+#. Default: "Ascending"
+#: components/EventCalendar/Search/components/SortOn
+msgid "Ascending"
+msgstr ""
+
+#. Default: "Base search query"
+#: components/EventCalendar/Search/schema
+msgid "Base search query"
+msgstr ""
+
+#. Default: "Cancel search"
+#: components/EventCalendar/Search/components/SearchInput
+msgid "Cancel search"
+msgstr ""
+
+#. Default: "Controls"
+#: components/EventCalendar/Search/schema
+msgid "Controls"
+msgstr ""
+
+#. Default: "Descending"
+#: components/EventCalendar/Search/components/SortOn
+msgid "Descending"
+msgstr ""
+
+#. Default: "Event Calendar"
+#: index
+msgid "Event Calendar"
+msgstr "Terminkalender"
+
+#. Default: "Facet"
+#: components/EventCalendar/Search/schema
+msgid "Facet"
+msgstr ""
+
+#. Default: "Facet widget"
+#: components/EventCalendar/Search/schema
+msgid "Facet widget"
+msgstr ""
+
+#. Default: "Facets"
+#: components/EventCalendar/Search/schema
+msgid "Facets"
+msgstr ""
+
+#. Default: "Field"
+#: components/EventCalendar/Search/schema
+msgid "Field"
+msgstr ""
+
+#. Default: "Headline"
+#: components/EventCalendar/Search/schema
+msgid "Headline"
+msgstr ""
+
+#. Default: "Hidden facets will still filter the results if proper parameters are passed in URLs"
+#: components/EventCalendar/Search/schema
+msgid "Hidden facets will still filter the results if proper parameters are passed in URLs"
+msgstr ""
+
+#. Default: "Hide facet?"
+#: components/EventCalendar/Search/schema
+msgid "Hide facet?"
+msgstr ""
+
+#. Default: "Label"
+#: components/EventCalendar/Search/schema
+msgid "Label"
+msgstr ""
+
+#. Default: "Multiple choices?"
+#: components/EventCalendar/Search/schema
+msgid "Multiple choices?"
+msgstr ""
+
+#. Default: "No selection"
+#: components/EventCalendar/Search/components/SortOn
+msgid "No selection"
+msgstr ""
+
+#. Default: "Search"
+#: components/EventCalendar/Search/components/SearchInput
+#: components/EventCalendar/Search/schema
+msgid "Search"
+msgstr ""
+
+#. Default: "Search block"
+#: components/EventCalendar/Search/schema
+msgid "Search block"
+msgstr ""
+
+#. Default: "Search button label"
+#: components/EventCalendar/Search/schema
+msgid "Search button label"
+msgstr ""
+
+#. Default: "Search input label"
+#: components/EventCalendar/Search/schema
+msgid "Search input label"
+msgstr ""
+
+#. Default: "Section title"
+#: components/EventCalendar/Search/schema
+msgid "Section title"
+msgstr ""
+
+#. Default: "Show search button?"
+#: components/EventCalendar/Search/schema
+msgid "Show search button?"
+msgstr ""
+
+#. Default: "Show search input?"
+#: components/EventCalendar/Search/schema
+msgid "Show search input?"
+msgstr ""
+
+#. Default: "Show sorting?"
+#: components/EventCalendar/Search/schema
+msgid "Show sorting?"
+msgstr ""
+
+#. Default: "Show total results"
+#: components/EventCalendar/Search/schema
+msgid "Show total results"
+msgstr ""
+
+#. Default: "Sort on"
+#: components/EventCalendar/Search/components/SortOn
+msgid "Sort on"
+msgstr ""
+
+#. Default: "Sort on options"
+#: components/EventCalendar/Search/schema
+msgid "Sort on options"
+msgstr ""
+
+#. Default: "Sorted on"
+#: components/EventCalendar/Search/components/SortOn
+msgid "Sorted on"
+msgstr ""
+
+#. Default: "The button presence disables the live search, the query is issued when you press ENTER"
+#: components/EventCalendar/Search/schema
+msgid "The button presence disables the live search, the query is issued when you press ENTER"
+msgstr ""
+
+#. Default: "Available views"
+#: components/EventCalendar/Search/schema
+msgid "availableViews"
+msgstr ""
+
+#. Default: "Views"
+#: components/EventCalendar/Search/schema
+msgid "views"
+msgstr ""
