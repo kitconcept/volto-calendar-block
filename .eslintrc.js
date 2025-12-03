@@ -29,7 +29,7 @@ module.exports = {
           ['@plone/volto-slate', `${coreLocation}/packages/volto-slate/src`],
           ['@plone/registry', `${coreLocation}/packages/registry/src`],
           [
-            'volto-calendar-block',
+            '@kitconcept/volto-calendar-block',
             './packages/volto-calendar-block/src',
           ],
           ...addonAliases,

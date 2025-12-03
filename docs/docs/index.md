@@ -1,16 +1,16 @@
 ---
 myst:
   html_meta:
-    "description": "A new add-on for Volto"
-    "property=og:description": "A new add-on for Volto"
-    "property=og:title": "volto-calendar-block"
-    "keywords": "volto-calendar-block, documentation, A new add-on for Volto"
+    "description": "Volto calendar block by kitconcept"
+    "property=og:description": "Volto calendar block by kitconcept"
+    "property=og:title": "Volto calendar block by kitconcept"
+    "keywords": "Volto calendar block, documentation, volto calendar block by kitconcept"
 ---
 
 # volto-calendar-block
 
-Welcome to the documentation for volto-calendar-block!
-A new add-on for Volto
+Welcome to the documentation for volto calendar block!
+volto calendar block by kitconcept
 
 This scaffold provides a ready-to-use environment for creating comprehensive documentation for {term}`Plone` projects, based on {term}`Plone Sphinx Theme`.
 

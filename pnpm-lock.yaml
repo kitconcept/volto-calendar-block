@@ -12,6 +12,9 @@ importers:
 
   .:
     dependencies:
+      '@kitconcept/volto-calendar-block':
+        specifier: workspace:*
+        version: link:packages/volto-calendar-block
       '@kitconcept/volto-light-theme':
         specifier: ^7.6.1
         version: 7.6.1(1fd98e4c8b15c93e2f1b75ecc44d07d0)
@@ -21,9 +24,6 @@ importers:
       '@plone/volto':
         specifier: workspace:*
         version: link:core/packages/volto
-      volto-calendar-block:
-        specifier: workspace:*
-        version: link:packages/volto-calendar-block
     devDependencies:
       mrs-developer:
         specifier: ^2.2.0

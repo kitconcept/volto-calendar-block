@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "volto-calendar-block Reference"
-    "property=og:description": "volto-calendar-block Reference"
-    "property=og:title": "volto-calendar-block Reference"
-    "keywords": "Plone, _volto-calendar-block,_ reference"
+    "description": "@kitconcept/volto-calendar-block Reference"
+    "property=og:description": "@kitconcept/volto-calendar-block Reference"
+    "property=og:title": "@kitconcept/volto-calendar-block Reference"
+    "keywords": "Plone, @kitconcept/volto-calendar-block, reference"
 ---
 
 # Reference

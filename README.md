@@ -1,11 +1,7 @@
-# volto-calendar-block (volto-calendar-block)
+# volto-calendar-block (@kitconcept/volto-calendar-block)
 
 A new add-on for Volto
 
-[![npm](https://img.shields.io/npm/v/volto-calendar-block)](https://www.npmjs.com/package/volto-calendar-block)
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://collective.github.io/volto-calendar-block/)
-[![Code analysis checks](https://github.com/collective/volto-calendar-block/actions/workflows/code.yml/badge.svg)](https://github.com/collective/volto-calendar-block/actions/workflows/code.yml)
-[![Unit tests](https://github.com/collective/volto-calendar-block/actions/workflows/unit.yml/badge.svg)](https://github.com/collective/volto-calendar-block/actions/workflows/unit.yml)
 
 ## Features
 
@@ -18,24 +14,24 @@ To install your project, you must choose the method appropriate to your version 
 
 ### Volto 18 and later
 
-Add `volto-calendar-block` to your `package.json`:
+Add `@kitconcept/volto-calendar-block` to your `package.json`:
 
 ```json
 "dependencies": {
-    "volto-calendar-block": "*"
+    "@kitconcept/volto-calendar-block": "*"
 }
 ```
 
-Add `volto-calendar-block` to your `volto.config.js`:
+Add `@kitconcept/volto-calendar-block` to your `volto.config.js`:
 
 ```javascript
-const addons = ['volto-calendar-block'];
+const addons = ['@kitconcept/volto-calendar-block'];
 ```
 
 If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
 
 ```javascript
-const theme = 'volto-calendar-block';
+const theme = '@kitconcept/volto-calendar-block';
 ```
 
 ### Volto 17 and earlier
@@ -44,19 +40,19 @@ Create a new Volto project (you can skip this step if you already have one):
 
 ```
 npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-calendar-block
+yo @plone/volto my-volto-project --addon @kitconcept/volto-calendar-block
 cd my-volto-project
 ```
 
-Add `volto-calendar-block` to your package.json:
+Add `@kitconcept/volto-calendar-block` to your package.json:
 
 ```JSON
 "addons": [
-    "volto-calendar-block"
+    "@kitconcept/volto-calendar-block"
 ],
 
 "dependencies": {
-    "volto-calendar-block": "*"
+    "@kitconcept/volto-calendar-block": "*"
 }
 ```
 
@@ -97,7 +93,7 @@ For this reason, it only works with pnpm and Volto 18 (currently in alpha).
 1.  Clone this repository, then change your working directory.
 
     ```shell
-    git clone git@github.com:collective/volto-calendar-block.git
+    git clone git@github.com:kitconcept/volto-calendar-block.git
     cd volto-calendar-block
     ```
 
