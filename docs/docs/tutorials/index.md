@@ -1,10 +1,10 @@
 ---
 myst:
   html_meta:
-    "description": "volto-calendar-block Tutorials"
-    "property=og:description": "volto-calendar-block Tutorials"
-    "property=og:title": "volto-calendar-block Tutorials"
-    "keywords": "Plone, volto-calendar-block, tutorials"
+    "description": "@kitconcept/volto-calendar-block Tutorials"
+    "property=og:description": "@kitconcept/volto-calendar-block Tutorials"
+    "property=og:title": "@kitconcept/volto-calendar-block Tutorials"
+    "keywords": "Plone, @kitconcept/volto-calendar-block, tutorials"
 ---
 
 # Tutorials

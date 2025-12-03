@@ -2,7 +2,7 @@
 name = "volto_calendar_block_Documentation"
 description = "A new add-on for Volto"
 keywords = [
-    "volto-calendar-block",
+    "@kitconcept/volto-calendar-block",
     "documentation",
     "Plone",
     "Diátaxis",

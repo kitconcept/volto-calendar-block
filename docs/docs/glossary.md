@@ -7,7 +7,8 @@ myst:
     "keywords": "Plone, documentation, glossary, term, definition"
 ---
 
-This glossary provides example terms and definitions relevant to **volto-calendar-block**.
+This glossary provides example terms and definitions relevant to **@kitconcept/volto-calendar-block**.
+
 A new add-on for Volto
 
 ```{note}

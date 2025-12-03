@@ -1,6 +1,6 @@
-# volto-calendar-block
+# @kitconcept/volto-calendar-block
 
-Documentation for volto-calendar-block.
+Documentation for @kitconcept/volto-calendar-block.
 A new add-on for Volto
 
 This project provides a Sphinx-based documentation environment for your Plone project, powered by the [Plone Sphinx Theme](https://github.com/plone/plone-sphinx-theme).
@@ -59,7 +59,7 @@ make help
 ```
 
 
-## Customize the volto-calendar-block documentation
+## Customize the @kitconcept/volto-calendar-block documentation
 
 This section provides how-to guidance to customize your documentation.
 
