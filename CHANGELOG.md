@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.3 (2025-12-03)
+
+### Internal
+
+- Add the kitconcept namespace to this add-on @iRohitSingh 
+
 ## 1.0.0-alpha.2 (2025-12-02)
 
 ### Bugfix
