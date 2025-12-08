@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.4 (2025-12-08)
+
+### Internal
+
+- Fixed packaging. @sneridagh [#6](https://github.com/kitconcept/volto-calendar-block/issue/6)
+
 ## 1.0.0-alpha.3 (2025-12-03)
 
 ### Internal
