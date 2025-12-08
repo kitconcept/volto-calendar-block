@@ -35,8 +35,9 @@
   "dependencies": {
     "@plone/volto": "workspace:*",
     "@plone/registry": "workspace:*",
+    "@kitconcept/volto-calendar-block": "workspace:*",
     "@kitconcept/volto-light-theme": "workspace:*",
-    "@kitconcept/volto-calendar-block": "workspace:*"
+    "@kitconcept/volto-bm3-compat": "workspace:*"
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"
