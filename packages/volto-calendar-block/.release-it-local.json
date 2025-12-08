@@ -1,6 +1,6 @@
 {
   "plugins": {
-    "../../../../core/packages/scripts/prepublish.js": {}
+    "../../core/packages/scripts/prepublish.js": {}
   },
   "hooks": {
     "after:bump": [
@@ -14,9 +14,6 @@
   },
   "npm": {
     "publish": false
-  },
-  "plonePrePublish": {
-    "publish": true
   },
   "git": {
     "changelog": "pipx run towncrier build --draft --yes --version 0.0.0",

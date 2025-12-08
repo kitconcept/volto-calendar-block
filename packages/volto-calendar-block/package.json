@@ -28,6 +28,7 @@
   },
   "addons": [],
   "dependencies": {
+    "@kitconcept/volto-light-theme": "workspace:*",
     "@plone/components": "workspace:^",
     "react-aria-components": "^1.13.0"
   },
@@ -40,6 +41,6 @@
     "@plone/scripts": "workspace:*",
     "@plone/types": "workspace:*",
     "release-it": "^19.0.5",
-    "vitest": "^3.1.2"
+    "vitest": "^3.2.4"
   }
 }
