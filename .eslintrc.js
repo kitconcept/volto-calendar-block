@@ -15,9 +15,7 @@ const addonAliases = Object.keys(registry.packages).map((o) => [
   o,
   registry.packages[o].modulePath,
 ]);
-console.log(
-  `${projectRootPath}/packages/volto-calendar-block/node_modules/@kitconcept/volto-light-theme/src`,
-);
+
 module.exports = {
   extends: `${coreLocation}/packages/volto/.eslintrc`,
   rules: {
