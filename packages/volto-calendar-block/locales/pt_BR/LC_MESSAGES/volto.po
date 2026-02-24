@@ -1,3 +1,5 @@
+#. Translation of volto.pot to Portuguese
+#. Matheus N.S. <matheusnsantana@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
@@ -19,165 +21,165 @@ msgstr ""
 #. Default: "Advanced facet?"
 #: components/EventCalendar/Search/schema
 msgid "Advanced facet?"
-msgstr ""
+msgstr "Faceta avançada?"
 
 #. Default: "Advanced facets are initially hidden and displayed on demand"
 #: components/EventCalendar/Search/schema
 msgid "Advanced facets are initially hidden and displayed on demand"
-msgstr ""
+msgstr "Facetas avançadas ficam ocultas inicialmente e são exibidas sob demanda"
 
 #. Default: "Ascending"
 #: components/EventCalendar/Search/components/SortOn
 msgid "Ascending"
-msgstr ""
+msgstr "Crescente"
 
 #. Default: "Base search query"
 #: components/EventCalendar/Search/schema
 msgid "Base search query"
-msgstr ""
+msgstr "Consulta de busca base"
 
 #. Default: "Cancel search"
 #: components/EventCalendar/Search/components/SearchInput
 msgid "Cancel search"
-msgstr ""
+msgstr "Cancelar busca"
 
 #. Default: "Controls"
 #: components/EventCalendar/Search/schema
 msgid "Controls"
-msgstr ""
+msgstr "Controles"
 
 #. Default: "Descending"
 #: components/EventCalendar/Search/components/SortOn
 msgid "Descending"
-msgstr ""
+msgstr "Decrescente"
 
 #. Default: "Event Calendar"
 #: index
 msgid "Event Calendar"
-msgstr ""
+msgstr "Calendário de Eventos"
 
 #. Default: "Facet"
 #: components/EventCalendar/Search/schema
 msgid "Facet"
-msgstr ""
+msgstr "Faceta"
 
 #. Default: "Facet widget"
 #: components/EventCalendar/Search/schema
 msgid "Facet widget"
-msgstr ""
+msgstr "Widget de faceta"
 
 #. Default: "Facets"
 #: components/EventCalendar/Search/schema
 msgid "Facets"
-msgstr ""
+msgstr "Facetas"
 
 #. Default: "Field"
 #: components/EventCalendar/Search/schema
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #. Default: "Headline"
 #: components/EventCalendar/Search/schema
 msgid "Headline"
-msgstr ""
+msgstr "Título"
 
 #. Default: "Hidden facets will still filter the results if proper parameters are passed in URLs"
 #: components/EventCalendar/Search/schema
 msgid "Hidden facets will still filter the results if proper parameters are passed in URLs"
-msgstr ""
+msgstr "Facetas ocultas ainda filtrarão os resultados se os parâmetros corretos forem passados nas URLs"
 
 #. Default: "Hide facet?"
 #: components/EventCalendar/Search/schema
 msgid "Hide facet?"
-msgstr ""
+msgstr "Ocultar faceta?"
 
 #. Default: "Label"
 #: components/EventCalendar/Search/schema
 msgid "Label"
-msgstr ""
+msgstr "Rótulo"
 
 #. Default: "Multiple choices?"
 #: components/EventCalendar/Search/schema
 msgid "Multiple choices?"
-msgstr ""
+msgstr "Múltiplas escolhas?"
 
 #. Default: "No selection"
 #: components/EventCalendar/Search/components/SortOn
 msgid "No selection"
-msgstr ""
+msgstr "Sem seleção"
 
 #. Default: "Search"
 #: components/EventCalendar/Search/components/SearchInput
 #: components/EventCalendar/Search/schema
 msgid "Search"
-msgstr ""
+msgstr "Pesquisar"
 
 #. Default: "Search block"
 #: components/EventCalendar/Search/schema
 msgid "Search block"
-msgstr ""
+msgstr "Bloco de pesquisa"
 
 #. Default: "Search button label"
 #: components/EventCalendar/Search/schema
 msgid "Search button label"
-msgstr ""
+msgstr "Rótulo do botão de pesquisa"
 
 #. Default: "Search input label"
 #: components/EventCalendar/Search/schema
 msgid "Search input label"
-msgstr ""
+msgstr "Rótulo do campo de pesquisa"
 
 #. Default: "Section title"
 #: components/EventCalendar/Search/schema
 msgid "Section title"
-msgstr ""
+msgstr "Título da seção"
 
 #. Default: "Show search button?"
 #: components/EventCalendar/Search/schema
 msgid "Show search button?"
-msgstr ""
+msgstr "Mostrar botão de pesquisa?"
 
 #. Default: "Show search input?"
 #: components/EventCalendar/Search/schema
 msgid "Show search input?"
-msgstr ""
+msgstr "Mostrar campo de pesquisa?"
 
 #. Default: "Show sorting?"
 #: components/EventCalendar/Search/schema
 msgid "Show sorting?"
-msgstr ""
+msgstr "Mostrar ordenação?"
 
 #. Default: "Show total results"
 #: components/EventCalendar/Search/schema
 msgid "Show total results"
-msgstr ""
+msgstr "Mostrar total de resultados"
 
 #. Default: "Sort on"
 #: components/EventCalendar/Search/components/SortOn
 msgid "Sort on"
-msgstr ""
+msgstr "Ordenar por"
 
 #. Default: "Sort on options"
 #: components/EventCalendar/Search/schema
 msgid "Sort on options"
-msgstr ""
+msgstr "Opções de ordenação"
 
 #. Default: "Sorted on"
 #: components/EventCalendar/Search/components/SortOn
 msgid "Sorted on"
-msgstr ""
+msgstr "Ordenado por"
 
 #. Default: "The button presence disables the live search, the query is issued when you press ENTER"
 #: components/EventCalendar/Search/schema
 msgid "The button presence disables the live search, the query is issued when you press ENTER"
-msgstr ""
+msgstr "A presença do botão desativa a busca ao vivo; a consulta é executada quando você pressiona ENTER"
 
 #. Default: "Available views"
 #: components/EventCalendar/Search/schema
 msgid "availableViews"
-msgstr ""
+msgstr "Visualizações disponíveis"
 
 #. Default: "Views"
 #: components/EventCalendar/Search/schema
 msgid "views"
-msgstr ""
+msgstr "Visualizações"
