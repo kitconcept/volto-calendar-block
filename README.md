@@ -1,11 +1,28 @@
 # volto-calendar-block (@kitconcept/volto-calendar-block)
 
-A new add-on for Volto
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://kitconcept.com/kitconcept-white.svg">
+  <img width="300" alt="kitconcept, GmbH" src="https://kitconcept.com/kitconcept-black.svg">
+</picture>
 
+A Volto add-on that provides an Event Calendar block for Plone sites. It queries Plone `Event` content types and renders them as a searchable, filterable calendar listing.
+
+---
+
+<img alt="Volto Calendar Block" src="https://github.com/user-attachments/assets/c4d00c60-9338-4f97-af2c-274faf96fb38">
+
+---
 
 ## Features
 
-<!-- List your awesome features here -->
+- **Event listing block** — Registers an `eventCalendar` block that fetches and displays Plone `Event` objects in a card-based layout.
+- **Date range picker** — Built with `react-aria-components`, allows visitors to filter events by a start and end date range directly in the block.
+- **Search input** — Optional text search that runs live or is triggered by a dedicated search button, depending on the block configuration.
+- **Facets** — Supports configurable Volto search facets rendered alongside the results, allowing further filtering by any indexed field.
+- **Event cards** — Each event is displayed as a card with a prominent date inset (day and month), supporting multi-day events with both start and end dates.
+- **Configurable sorting** — Defaults to sorting by `effective` date descending; sorting is automatically adjusted when a text search is active.
+- **Headline** — Optional configurable headline text rendered above the search controls.
+- **i18n ready** — All strings are defined with `react-intl` for full internationalization support.
 
 ## Installation
 
@@ -70,7 +87,7 @@ yarn start
 
 ## Test installation
 
-Visit http://localhost:3000/ in a browser, login, and check the awesome new features.
+Visit http://localhost:3000/ in a browser, log in, and verify the Event Calendar block is available.
 
 
 ## Development
@@ -79,7 +96,7 @@ The development of this add-on is done in isolation using a new approach using p
 For this reason, it only works with pnpm and Volto 18 (currently in alpha).
 
 
-### Prerequisites ✅
+### Prerequisites
 
 -   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
 -   [nvm](https://6.docs.plone.org/install/create-project-cookieplone.html#nvm)
@@ -88,7 +105,7 @@ For this reason, it only works with pnpm and Volto 18 (currently in alpha).
 -   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
 -   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
 
-### Installation 🔧
+### Installation
 
 1.  Clone this repository, then change your working directory.
 
@@ -212,6 +229,6 @@ make acceptance-test
 
 The project is licensed under the MIT license.
 
-## Credits and acknowledgements 🙏
+## Credits and Acknowledgements 
 
-Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and [cookieplone-templates (888ff69)](https://github.com/plone/cookieplone-templates/commit/888ff6948a43d8b962f4900ba1770f876e2f0243) on 2025-11-03 16:30:46.747555. A special thanks to all contributors and supporters!
+Crafted with care by **[kitconcept GmbH](https://kitconcept.com)**. Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and [cookieplone-templates (888ff69)](https://github.com/plone/cookieplone-templates/commit/888ff6948a43d8b962f4900ba1770f876e2f0243) on 2025-11-03 16:30:46.747555. A special thanks to all contributors and supporters!
