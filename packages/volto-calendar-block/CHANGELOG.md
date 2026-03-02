@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.7 (2026-03-02)
+
+### Internal
+
+- Updated pt-br translations. @humanaice [#8](https://github.com/kitconcept/volto-calendar-block/issue/8)
+- Updated README. @humanaice [#10](https://github.com/kitconcept/volto-calendar-block/issue/10)
+
 ## 1.0.0-alpha.6 (2026-02-05)
 
 ## 1.0.0-alpha.5 (2026-02-05)
