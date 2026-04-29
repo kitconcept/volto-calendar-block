@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.8 (2026-04-29)
+
+### Breaking
+
+- Upgrade to Volto 19a31.
+  Forces `react-aria-components` from the catalog in Volto so projects using it have to be updated to at least this Volto version. @sneridagh 
+
 ## 1.0.0-alpha.7 (2026-03-02)
 
 ### Internal
