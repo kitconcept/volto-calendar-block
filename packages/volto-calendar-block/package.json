@@ -30,7 +30,7 @@
   "dependencies": {
     "@kitconcept/volto-light-theme": "workspace:*",
     "@plone/components": "workspace:^",
-    "react-aria-components": "^1.13.0"
+    "react-aria-components": "catalog:"
   },
   "peerDependencies": {
     "react": "^18.2.0",
