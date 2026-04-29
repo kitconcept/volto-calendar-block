@@ -38,7 +38,7 @@
         span {
           color: #000;
           &:focus {
-            background: #fff;
+            background: #ecebeb;
           }
         }
       }
@@ -50,7 +50,7 @@
         span {
           color: #000;
           &:focus {
-            background: #fff;
+            background: #ecebeb;
           }
         }
       }

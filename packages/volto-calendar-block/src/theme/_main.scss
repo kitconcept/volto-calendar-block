@@ -38,7 +38,7 @@
         span {
           color: $black;
           &:focus {
-            background: $white;
+            background: var(--secondary-color);
           }
         }
       }
@@ -50,7 +50,7 @@
         span {
           color: $black;
           &:focus {
-            background: $white;
+            background: var(--secondary-color);
           }
         }
       }
