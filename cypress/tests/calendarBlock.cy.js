@@ -438,7 +438,7 @@ describe('Event Calendar Block Tests', () => {
       .should('not.have.class', 'has-end-date');
 
     cy.get('a[href="/my-first-event"]')
-      .next('div.card-inner')
+      .closest('.card-inner')
       .find('.date-inset')
       .should('have.class', 'has-end-date');
   });
