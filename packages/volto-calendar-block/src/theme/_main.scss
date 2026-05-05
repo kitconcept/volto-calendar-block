@@ -38,7 +38,7 @@
         span {
           color: $black;
           &:focus {
-            background: var(--secondary-color);
+            background: var(--theme-high-contrast-color);
           }
         }
       }
@@ -50,7 +50,7 @@
         span {
           color: $black;
           &:focus {
-            background: var(--secondary-color);
+            background: var(--theme-high-contrast-color);
           }
         }
       }
