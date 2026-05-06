@@ -1,6 +1,6 @@
 {
   "name": "@kitconcept/volto-calendar-block",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.9",
   "description": "A new add-on for Volto",
   "main": "src/index.ts",
   "license": "MIT",

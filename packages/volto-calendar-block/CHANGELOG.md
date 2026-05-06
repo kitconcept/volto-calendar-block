@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.9 (2026-05-06)
+
+### Bugfix
+
+- Fix background color wrong in event calendar @iRohitSingh [#13](https://github.com/kitconcept/volto-calendar-block/issue/13)
+
 ## 1.0.0-alpha.8 (2026-04-29)
 
 ### Breaking
