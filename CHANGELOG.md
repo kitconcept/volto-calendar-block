@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0 (2026-09-16)
+
+### Internal
+
+- Update to latest Volto, final release. @sneridagh [#finalRelease](https://github.com/kitconcept/volto-calendar-block/issue/finalRelease)
+
 ## 1.0.0-alpha.9 (2026-05-06)
 
 ### Bugfix
