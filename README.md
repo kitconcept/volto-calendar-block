@@ -93,7 +93,9 @@ Visit http://localhost:3000/ in a browser, log in, and verify the Event Calendar
 ## Development
 
 The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Volto core improvements.
-For this reason, it only works with pnpm and Volto 19.6 or later.
+For this reason, it only works with pnpm and Volto 18 (currently in alpha).
+
+The `@blocks-schema` support (the block schema and documentation published by the Volto server) is only available with Volto 19.6 or later. The add-on keeps working on older Volto 19 without it.
 
 
 ### Prerequisites
