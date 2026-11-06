@@ -202,7 +202,7 @@ const FacetSchema = ({ intl }) => ({
 });
 
 const SearchSchema = ({ data = {}, intl }) => {
-  return {
+  const schema = {
     title: intl.formatMessage(messages.searchBlock),
     fieldsets: [
       {
@@ -283,6 +283,22 @@ const SearchSchema = ({ data = {}, intl }) => {
     },
     required: [],
   };
+
+  // The listing variation chosen in the block data may extend the schema.
+  // This runs here, not in the edit component, so the endpoint gets it too.
+  const listingVariations = config.blocks.blocksConfig?.listing?.variations;
+  const activeItem = (listingVariations || []).find(
+    (item) => item.id === data.listingBodyTemplate,
+  );
+  const listingSchemaEnhancer = activeItem?.schemaEnhancer;
+  if (listingSchemaEnhancer) {
+    return listingSchemaEnhancer({
+      schema: cloneDeep(schema),
+      data,
+      intl,
+    });
+  }
+  return schema;
 };
 
 export default SearchSchema;

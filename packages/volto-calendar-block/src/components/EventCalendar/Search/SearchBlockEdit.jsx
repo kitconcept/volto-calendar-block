@@ -12,7 +12,6 @@ import { SearchBlockViewComponent } from './SearchBlockView';
 import Schema from './schema';
 import { withSearch } from './hocs';
 import { withQueryString } from '@plone/volto/components/manage/Blocks/Search/hocs';
-import cloneDeep from 'lodash/cloneDeep';
 
 // const messages = defineMessages({
 //   template: {
@@ -35,27 +34,13 @@ const SearchBlockEdit = (props) => {
     querystring = {},
   } = props;
   const { sortable_indexes = {} } = querystring;
+  // The data adapter is part of the block configuration, as in Volto's blocks.
+  const { dataAdapter } = config.blocks.blocksConfig.eventCalendar;
 
-  let schema = Schema({ data, intl });
+  const schema = Schema({ data, intl });
 
-  // schema = addExtensionFieldToSchema({
-  //   schema,
-  //   name: 'listingBodyTemplate',
-  //   items: config.blocks.blocksConfig.listing.variations,
-  //   intl,
-  //   title: { id: intl.formatMessage(messages.template) },
-  // });
-  const listingVariations = config.blocks.blocksConfig?.listing?.variations;
-  let activeItem = listingVariations.find(
-    (item) => item.id === data.listingBodyTemplate,
-  );
-  const listingSchemaEnhancer = activeItem?.schemaEnhancer;
-  if (listingSchemaEnhancer)
-    schema = listingSchemaEnhancer({
-      schema: cloneDeep(schema),
-      data,
-      intl,
-    });
+  // The sort options come from the querystring of the editor, which the
+  // endpoint does not have, so they are set here and not in the schema.
   schema.properties.sortOnOptions.items = {
     choices: Object.keys(sortable_indexes).map((k) => [
       k,
@@ -87,9 +72,12 @@ const SearchBlockEdit = (props) => {
         <BlockDataForm
           schema={schema}
           onChangeField={(id, value) => {
-            onChangeBlock(block, {
-              ...data,
-              [id]: value,
+            dataAdapter({
+              block,
+              data,
+              id,
+              onChangeBlock,
+              value,
             });
           }}
           onChangeBlock={onChangeBlock}
