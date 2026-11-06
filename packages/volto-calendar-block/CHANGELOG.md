@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.1.0 (2026-11-06)
+
+### Feature
+
+- Added support for the `@blocks-schema` endpoint of Volto 19.6. The Event Calendar block now has its documentation, and its schema resolves outside the editor. Its settings form saves changes through the block's `dataAdapter`. @ericof [#14](https://github.com/kitconcept/volto-calendar-block/issue/14)
+
 ## 1.0.0 (2026-09-16)
 
 ### Internal
