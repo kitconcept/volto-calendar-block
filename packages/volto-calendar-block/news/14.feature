@@ -1,0 +1,1 @@
+Added support for the `@blocks-schema` endpoint of Volto 19.6. The Event Calendar block now has its documentation, and its schema resolves outside the editor. Its settings form saves changes through the block's `dataAdapter`. @ericof
